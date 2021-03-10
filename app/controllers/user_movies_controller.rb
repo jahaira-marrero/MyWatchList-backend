@@ -1,4 +1,4 @@
-class UserusermoviesController < ApplicationController
+class UserMoviesController < ApplicationController
     def index
         @usermovies = Usermovie.order(:user_id)
         render json: @usermovies
