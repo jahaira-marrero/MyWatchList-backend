@@ -1,4 +1,4 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :username, :netflix, :hulu, :hbo, :disney, :amazon
+  attributes :id, :username, :password, :netflix, :hulu, :hbo, :disney, :amazon
   has_many :user_movies
 end
