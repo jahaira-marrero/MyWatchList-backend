@@ -8,7 +8,7 @@
 
 #Users
 dayne = User.create(username: "Dayne", password: "dayne", netflix: true, hulu: true, hbo: true, disney: false, amazon: true)
-jahaira = User.create(username: "Jahaira", password: "jahaira", netflix: true, hulu: true, hbo: true, disney: false, amazon: false)
+jahaira = User.create(username: "Jahaira", password: "jahaira", netflix: true, hulu: true, hbo: true, disney: true, amazon: false)
 
 #Movies
 m1 = Movie.create(title: "Coming to America", image: "https://images-na.ssl-images-amazon.com/images/I/91RKL-fOIEL._SL1500_.jpg", year: 1988, likes: 5, dislikes: 0, netflix: true, hulu: false, hbo: false, disney: false, amazon: true)
